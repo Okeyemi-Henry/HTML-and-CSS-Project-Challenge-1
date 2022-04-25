@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("istockphoto.jpg") ;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+
+}
+
+.logo{
+    cursor: pointer;
+
+      }
+      
+
+#nav-bar{
+    background-color: rgb(255, 255, 255);
+height: 80px;
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 3%;
+  position: relative;
+
+  
+}
+
+
+  
+  #nav-bar ul{
+      list-style: none;
+      display: flex;
+  
+  }
+ 
+  #nav-bar ul li {
+    padding: 2px 5px;
+    position: relative;
+  }
+
+  #nav-bar ul li a{ 
+    font-size: 13px;
+    color:black;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    padding: 10px 10px;
+   }
+
+   #nav-bar ul li a:hover{
+color: blueviolet;
+   }
+
+   .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+ 
+  }
+
+  .dropdown-menu {
+    display: none;
+  }
+
+  #nav-bar ul li:hover .dropdown-menu {
+    display: block;
+   position: absolute;
+    left: 0;
+    top: 100%;
+ 
+  }
+
+  #nav-bar ul li:hover .dropdown-menu ul {
+    display: flex;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  #nav-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+
+
+
+#header_2{
+    color: rgb(142, 142, 228);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header_2 span{
+    color: rgb(156, 150, 219);
+    font-size: 25px;
+    font-family: Impact, SHaettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#paragraph{
+    color: rgb(17, 87, 122);
+    font-size: 20px;
+}
+
+h1{
+    color: rgb(53, 30, 30);
+    font-weight: lighter;
+font-size: 50px;
+font-family: monospace;
+letter-spacing: 7px;
+
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.lorem{
+margin:200px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+#button {
+
+    background-color: white;
+    color: rgb(128, 128, 128);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid rgba(175, 0, 0, 0.452);
+    border-radius: 3px;
+    
+}
+#button:hover{
+    background-color: rgba(243, 255, 198, 0.527);
+    color: rgb(184, 71, 71);
+}
+
+#sign-in{
+    
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 1px;
+    width: 250px;
+   
+}
+
+
+#sign-in:hover{
+ 
+    color: rgb(181, 201, 0);
+}
